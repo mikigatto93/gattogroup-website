@@ -1,0 +1,37 @@
+/*Media query for navbar, small screen center logo and burger-menu*/
+@media only screen and (max-width: 374px) {
+	
+	.navbar-toggler	{
+		margin: auto;
+	}
+	
+	.navbar .container {
+		justify-content: space-around;
+	}
+	
+}
+
+
+@media only screen and (min-width: 768px) {
+	.carousel-inner {
+		height: 500px;
+	}
+
+	.carousel-item, .carousel-item img {
+		height: 500px;
+		width:100%;
+	}
+  
+  } 
+  
+
+  @media only screen and (max-width: 767px) {
+	.carousel-inner {
+		height: 300px;
+	}
+	
+	.carousel-item, .carousel-item img {
+		height: 300px;
+		width:100%
+	}
+  }
