@@ -1,3 +1,61 @@
+
+:root {
+	--c1: #daafa8;
+	--c2: #f3edf7;
+	--c3: #d8cdd1;
+	--c4: #b49289;
+	--c5: #482e5e;
+
+  }
+
+body {
+	background-color: var(--c2);
+}
+
+.custom-nav-bg-color {
+	background-color: var(--c3);
+}
+
+.custum-row-bg-color {
+	background-color: var(--c3);
+}
+
+.custom-btn-style-color {
+	background-color: var(--c5);
+	border: 0;
+	border-radius: 0;
+}
+
+.custom-margin-skip {
+	margin-top: 120px;
+}
+
+
+.hero-image {
+	height: 85vh;
+	width: 100vw;
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-image: url("../img/hero-image.jpg");
+
+}
+
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.65);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  }
+
+
 /*Media query for navbar, small screen center logo and burger-menu*/
 @media only screen and (max-width: 374px) {
 	
@@ -35,3 +93,21 @@
 		width:100%
 	}
   }
+
+.card-img-top-custom {
+    max-width: 450px;
+    object-fit: cover;
+}
+
+
+.card {
+	max-width: fit-content;
+	border: none;
+	border-radius: 0;
+	transition: all 0.3s;
+
+}
+
+.card:hover {
+	transform: scale(1.15);
+}
