@@ -31,6 +31,10 @@ body {
 	margin-top: 130px;
 }
 
+.custom-centering-pad {
+	padding-left: 10%;
+	padding-right: 10%;
+}
 
 
 .dropdown-menu {
@@ -144,5 +148,11 @@ body {
 }
 
 .form-control {
+	border-radius: 0;
+}
+
+
+.additional-contacts-section .card {
+	border: none;
 	border-radius: 0;
 }
