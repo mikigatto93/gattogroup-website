@@ -1,0 +1,13 @@
+# This .htaccess is for shared-hosting, that usually located on public_html/
+# this will brings public/ dir into root. If you're using VPS, then delete this file.
+
+# for info : https://github.com/kenjis/codeigniter-composer-installer/issues/12
+
+<IfModule mod_rewrite.c>
+   RewriteEngine On 
+   # This will move-up public folder
+   RewriteRule ^(.*)$ public/$1 [L]
+   # This will hide dot files
+   RewriteCond %{THE_REQUEST} ^.*/\.
+   RewriteRule ^(.*)$ - [R=404]
+</IfModule>
