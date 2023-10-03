@@ -15,7 +15,7 @@
           <?php if ($current_page === 'home') :?>
             <a class="nav-link active" aria-current="page" href="#">HOME</a>
           <?php else: ?>
-            <a class="nav-link" href="home/">HOME</a>
+            <a class="nav-link" href="home">HOME</a>
           <?php endif; ?>
         </li>
 
@@ -23,13 +23,13 @@
           <?php if ($current_page === 'chi-siamo') :?>
             <a class="nav-link active" aria-current="page" href="#">CHI SIAMO</a>
           <?php else :?>
-            <a class="nav-link" href="chi-siamo/">CHI SIAMO</a>
+            <a class="nav-link" href="chi-siamo">CHI SIAMO</a>
           <?php endif; ?>
         </li>
 
         <li class="nav-item dropdown">
           <?php if ($current_page === 'prodotti') :?>
-            <a class="nav-link dropdown-toggle active" aria-current="page" href="prodotti/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="prodotti" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               PRODOTTI
             </a>
           <?php else: ?>
@@ -48,7 +48,7 @@
           <?php if ($current_page === 'manutenzione') :?>
             <a class="nav-link active" aria-current="page" href="#">MANUTENZIONE</a>
           <?php else :?>
-            <a class="nav-link" href="manutenzione/">MANUTENZIONE</a>
+            <a class="nav-link" href="manutenzione">MANUTENZIONE</a>
           <?php endif; ?>
         </li>
 
@@ -56,7 +56,7 @@
           <?php if ($current_page === 'galleria') :?>
             <a class="nav-link active" aria-current="page" href="#">GALLERIA</a>
           <?php else :?>
-            <a class="nav-link" href="galleria/">GALLERIA</a>
+            <a class="nav-link" href="galleria">GALLERIA</a>
           <?php endif; ?>
         </li>
 
@@ -64,7 +64,7 @@
           <?php if ($current_page === 'showroom') :?>
             <a class="nav-link active" aria-current="page" href="#">SHOWROOM</a>
           <?php else :?>
-            <a class="nav-link" href="showroom/">SHOWROOM</a>
+            <a class="nav-link" href="showroom">SHOWROOM</a>
           <?php endif; ?>
         </li>
 
@@ -72,7 +72,7 @@
           <?php if ($current_page === 'contatti') :?>
           <a class="nav-link active" aria-current="page" href="#">CONTATTI</a>
           <?php else :?>
-            <a class="nav-link" href="contatti/">CONTATTI</a>
+            <a class="nav-link" href="contatti">CONTATTI</a>
           <?php endif; ?>
         </li>
 

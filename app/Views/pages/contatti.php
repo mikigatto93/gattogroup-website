@@ -1,13 +1,9 @@
 <?php $this->extend('templates/default'); ?>
 
-
-
-
-
 <?php $this->section('content'); ?>
 
 <!--page content-->
-  
+<script src="https://kit.fontawesome.com/f34b3d5945.js" crossorigin="anonymous"></script>
 <div class="container-fluid pt-3 custom-margin-skip">
     <div class="row">
       <div class="container custom-centering-pad">
@@ -121,7 +117,7 @@
 
           <div class="col-sm-12 col-md-4">
         <div class="card text-center">
-          <div class="card-img py-3"><i class="fa-solid fa-map-marker fa-2xl" ></i></div>
+          <div class="card-img py-3"><i class="fa-solid fa-location-dot fa-2xl" ></i></div>
           <h2 class="card-title"> INDIRIZZO </h2>
           <div class="card-body mb-4">
             <div>Via Montagnon, 59C, 35028 Piove di Sacco (PD)</div>

@@ -1,8 +1,5 @@
 <?php $this->extend('templates/default'); ?>
 
-
-
-
 <?php $this->section('content'); ?>
 
 <!-- heros section-->
@@ -23,7 +20,7 @@
 <!--Products section-->
 <div class="container-md p-3 mt-2">
 
-  <div class="row my-3 product-section-homepage">
+  <div class="row my-3 card-zoom-animation">
     <h2 class="display-3 my-5"> I nostri prodotti </h2>
 
     <div class="col-md-6 col-lg-3">

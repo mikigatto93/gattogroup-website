@@ -1,8 +1,5 @@
 <?php $this->extend('templates/default'); ?>
 
-
-
-
 <?php $this->section('content'); ?>
 
 <!--page content-->
