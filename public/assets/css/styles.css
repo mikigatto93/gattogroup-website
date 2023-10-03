@@ -5,6 +5,7 @@
 	--c3: #d8cdd1;
 	--c4: #b49289;
 	--c5: #482e5e;
+	--link-hover: #0d6efd;
 
   }
 
@@ -43,6 +44,22 @@ body {
 	border-radius: 0;
 }
 
+
+.navbar .megamenu{ padding: 1rem 0; }
+
+.nav-link:focus,
+.nav-link:hover,
+.megamenu-nav-list dt a:hover,
+.megamenu-nav-list dd a:hover {
+	color: var(--link-hover);
+}
+
+.megamenu-nav-list a {
+	color: black;
+	text-decoration: none;
+}
+
+
 .hero-image {
 	height: 85vh;
 	width: 100vw;
@@ -69,6 +86,22 @@ body {
 
 
 /*Media query for navbar, small screen center logo and burger-menu*/
+
+@media all and (min-width: 992px) {
+
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+  
+  }	
+  
+  @media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+	  overflow-y: auto;
+		max-height: 90vh;
+		margin-top:10px;
+	}
+  }
+
 @media only screen and (max-width: 374px) {
 	
 	.navbar-toggler	{
@@ -252,3 +285,11 @@ body {
 .prod-list-custom-spacer {
 	width: 10%;
 }
+
+
+
+
+
+
+
+
